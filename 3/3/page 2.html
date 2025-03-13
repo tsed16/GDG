@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>page 2</title>
+</head>
+<style>
+    li:hover{
+        background-color: red;
+    }
+    #odd
+    li:nth-child(3n+1){
+        background-color: lightblue;
+    }
+    body::selection{
+color:blue;
+background-color: gray;
+    }
+#odd li::before{
+    content:"💐";
+}
+#odd li::after{
+    content:"🌻🌼";
+}
+#even li::before{
+    content:"🌺";
+}
+#even li::after{
+    content:"🌹🥀";
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+   color: black; 
+   text-decoration: none;
+   padding: 8px 15px;
+   display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(101, 101, 222);
+    font-weight:bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(active){
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+</style>
+<body style="background-image:url(pexels-akos-szabo-145938-440731.jpg);background-size: cover;">
+  
+    <main>
+    <div style="border:solid 5px;height:350px;margin-top:150px;height: 400;background-image:url(pexels-victorfreitas-600114.jpg) ;background-size: cover;overflow: scroll; font-size:25px;">
+      <ul id="odd">
+        <li>"In every walk with nature one receives far more than he seeks." –John Muir</li>
+        <br><li>"What is the good of your stars and trees, your sunrise and the wind, if they do not enter into our daily lives?" –E.M. Forster</li>
+        <br><li>"The tree which moves some to tears of joy is in the eyes of others only a green thing which stands in the way. Some see nature all ridicule and deformity, and by these I shall not regulate my propositions. And some see no nature at all. But to the eyes of the man of imagination, nature is imagination itself." –William Blake</li>
+        <br><li>"Some old-fashioned things like fresh air and sunshine are hard to beat." –Laura Ingalls Wilder</li>
+        <br><li>"Rest is not idleness, and to lie sometimes on the grass under trees on a summer's day, listening to the murmur of the water, or watching the clouds float across the sky, is by no means a waste of time." –Sir John Lubbock</li>
+      
+        
+        <br><li>"My wish is to stay always like this, living quietly in a corner of nature." –Claude Monet</li>
+        <br><li>"For a time, I rest in the grace of the world, and am free." –Wendell Berry</li>
+        <br><li>"Every morning was a cheerful invitation to make my life of equal simplicity, and I may say innocence, with Nature herself." –Henry David Thoreau</li>
+        <br><li>"Fresh air is as good for the mind as for the body. Nature always seems trying to talk to us as if she had some great secret to tell. And so she has." –John Lubbock</li>
+        <br><li>"Nature is the art of God." - Dante Alighieri
+</ul>
+    
+
+    </div>
+    <div class="pagination">
+        <a href="quets.html"><</a>
+        <a href="quets.html">1</a>
+        <a href="page 2.html"  class="active">2</a>
+        <a href="page3.html">3</a>
+        <a href="page3.html">></a>
+      </div>
+    </main>
+    </body>
