@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>page 3</title>
+</head>
+<style>
+    li:hover{
+        background-color: red;
+    }
+    #odd
+    li:nth-child(3n+1){
+        background-color: lightblue;
+    }
+    body::selection{
+color:blue;
+background-color: gray;
+    }
+#odd li::before{
+    content:"💐";
+}
+#odd li::after{
+    content:"🌻🌼";
+}
+#even li::before{
+    content:"🌺";
+}
+#even li::after{
+    content:"🌹🥀";
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+   color: black; 
+   text-decoration: none;
+   padding: 8px 15px;
+   display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(101, 101, 222);
+    font-weight:bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(active){
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+
+</style>
+<body style="background-image:url(pexels-etha-34545-128234.jpg);background-size: cover;">
+<main>
+    <div style="border:solid 5px;height:300px;background-image: url(pexels-etha-34545-128234.jpg);overflow: scroll;margin-top:150px;font-size:25px;">
+        <ul style="color: yellow;" id="even">
+            <li>Adopt the pace of nature. Her secret is patience." –Ralph Waldo Emerson</li>"
+            <li>“Nature is the source of all true knowledge.” –Leonardo da Vinci</li>"
+            <li>“A walk in nature walks the soul back home.” –Mary Davis</li>"
+            <li>“Choose only one master—nature.” –Rembrandt</li>"
+            <li>“The goal of life is living in agreement with nature.” –Zeno</li>"
+            <li>“One touch of nature makes the whole world kin.” –William Shakespeare</li>"
+            <li>“Time spent amongst trees is never wasted time.” –Katrina Mayer</li>"
+            <li>“The poetry of the earth is never dead.” –John Keats</li>"
+            <li>"Nature is pleased with simplicity." –Sir Isaac Newton</li>"
+            <li>"Always be on the lookout for the presence of wonder." –E.B.White</li>"
+            <li>"In the spring, at the end of the day, you should smell like dirt." –Margaret Atwood</li>"
+        </ul>
+    </div>
+
+    <div class="pagination">
+        <a href="page 2.html"><</a>
+        <a href="quets.html" >1</a>
+        <a href="page 2.html">2</a>
+        <a href="page3.html" class="active">3</a>
+        <a href="page3.html">></a>
+      </div>
+</main>
+</body>
