@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Google form</title>
+    </head >
+
+    <body style="background-color:blanchedalmond;font-size: 25px;">
+    <header>
+        <h1 style="background-color: aquamarine;border:5px inset;text-align: center;" >GOOgle form </h1><br>
+        <h3 style="background-color: antiquewhite;margin-left:auto;"><u>please fill the following form</u></h3>
+    </header><br>
+    <main style="margin-left:100px;">
+<form action="index.php" method="POST">
+<label for="title"><b>Title:</b></label>
+<label for="student">Student</label>
+<input type="radio" id="student" value="student" name="title">
+<label for="teacher">Teacher</label>
+<input type="radio" id="teacher" value="teacher" name="title">
+<br><br>
+<label for="username">user name</label>
+<input type="text" id="username" minlength="3" maxlength="6" placeholder="myname"required>
+<br><br>
+<label for="id">ID:</label>
+<input type="id" id="id" maxlength="6" placeholder="1320/16"required>
+<br><br>
+<label for="email">email:</label>
+<input type="email" id="email" placeholder="ur@gmail.com"required>
+<br><br>
+<label for="phone">phone number</label>
+<input type="tel" id="phone" placeholder="09-23-78-90-40" max="10" required>
+<br><br>
+<label>If you are a student please choose one</label>
+<select >
+    <option>1st year</option>
+    <option>2nd year</option>
+    <option>3rd year</option>
+    <option>4th year</option>
+    <option>5th year</option>
+</select>
+<br><br>
+<label for="adress">adress:</label>
+<input type="text"  id="adress">
+<br><br>
+<label for="level"><b>Level:</b></label>
+<label for="beginner">beginner</label>
+<input type="radio" id="beginner" value="beginner" name="level">
+<label for="intermediate">intermediate</label>
+<input type="radio" id="intermediate" value="intermediate" name="level">
+<label for="advanced">advanced</label>
+<input type="radio" id="advanced" value="advanced" name="level">
+<br><br>
+<input type="submit">
+<br><br>
+<input type="reset">
+</form>
+</main>
+    </body>
+</html>
