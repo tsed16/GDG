@@ -1,0 +1,38 @@
+.gallary{
+    display: inline-block;
+    margin: 10px;
+    border-color: rgb(176, 171, 171);
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+   
+    
+}
+.description{
+    border-color: gray;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(249, 201, 129);
+    font-family: Algerian;
+
+}
+.text{
+    float: right;
+    margin-top:80px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.text1{
+    font-size: 20px;
+}
+.gallary:hover{
+    background-color: brown;
+    transform: scale(1.1);
+}
+img{
+
+}
+body{
+    background-image:url(myback_ground.webp) ;
+}
